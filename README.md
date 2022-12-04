@@ -36,12 +36,12 @@ To execute the workload:
 
 For workloads A,B and C -
 
-./bin/ycsb run mongodb -s -t -P workloads/<workload> -p operationcount=<recordcount> -threads 16 -p mongodb.url="mongodb://localhost:27017/yscb" -p mongodb.auth="true"
+`./bin/ycsb run mongodb -s -t -P workloads/<workload> -p operationcount=<recordcount> -threads 16 -p mongodb.url="mongodb://localhost:27017/yscb" -p mongodb.auth="true"`
 
 
 For workloads D, E and F -
 
-./bin/ycsb run mongodb -s -t -P workloads/<workload> -p recordcount=<recordcount> -p operationcount=<recordcount> -threads 16 -p mongodb.url="mongodb://localhost:27017/yscb" -p mongodb.auth="true"
+`./bin/ycsb run mongodb -s -t -P workloads/<workload> -p recordcount=<recordcount> -p operationcount=<recordcount> -threads 16 -p mongodb.url="mongodb://localhost:27017/yscb" -p mongodb.auth="true"`
 
 
 
