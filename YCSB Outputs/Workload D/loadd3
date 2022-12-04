@@ -1,0 +1,162 @@
+[WARN]  Running against a source checkout. In order to get our runtime dependencies we'll have to invoke Maven. Depending on the state of your system, this may take ~30-45 seconds
+[DEBUG]  Running 'mvn -pl site.ycsb:mongodb-binding -am package -DskipTests dependency:build-classpath -DincludeScope=compile -Dmdep.outputFilterFile=true'
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+java -cp /home/swan/YCSB/mongodb/conf:/home/swan/YCSB/mongodb/target/mongodb-binding-0.18.0-SNAPSHOT.jar:/home/swan/.m2/repository/org/apache/htrace/htrace-core4/4.1.0-incubating/htrace-core4-4.1.0-incubating.jar:/home/swan/.m2/repository/org/xerial/snappy/snappy-java/1.1.7.1/snappy-java-1.1.7.1.jar:/home/swan/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.4/HdrHistogram-2.1.4.jar:/home/swan/.m2/repository/org/mongodb/mongo-java-driver/3.11.0/mongo-java-driver-3.11.0.jar:/home/swan/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.4/jackson-mapper-asl-1.9.4.jar:/home/swan/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.4/jackson-core-asl-1.9.4.jar:/home/swan/YCSB/core/target/core-0.18.0-SNAPSHOT.jar:/home/swan/.m2/repository/com/allanbank/mongodb-async-driver/2.0.1/mongodb-async-driver-2.0.1.jar site.ycsb.Client -db site.ycsb.db.MongoDbClient -s -P workloads/workloadd -t -p recordcount=300000 -threads 16 -p mongodb.url=mongodb://localhost:27017/yscb -p mongodb.auth=true -load
+Command line: -db site.ycsb.db.MongoDbClient -s -P workloads/workloadd -t -p recordcount=300000 -threads 16 -p mongodb.url=mongodb://localhost:27017/yscb -p mongodb.auth=true -load
+YCSB Client 0.18.0-SNAPSHOT
+
+Loading workload...
+Starting test.
+2020-04-25 06:33:14:776 0 sec: 0 operations; est completion in 0 second 
+Apr 25, 2020 6:33:15 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+mongo client connection created with mongodb://localhost:27017/yscb
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+Apr 25, 2020 6:33:15 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 30000 ms before timing out
+Apr 25, 2020 6:33:15 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 30000 ms before timing out
+Apr 25, 2020 6:33:15 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 30000 ms before timing out
+Apr 25, 2020 6:33:15 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 30000 ms before timing out
+Apr 25, 2020 6:33:15 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 30000 ms before timing out
+Apr 25, 2020 6:33:15 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 30000 ms before timing out
+Apr 25, 2020 6:33:15 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 30000 ms before timing out
+Apr 25, 2020 6:33:15 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 30000 ms before timing out
+Apr 25, 2020 6:33:15 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 30000 ms before timing out
+Apr 25, 2020 6:33:15 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 30000 ms before timing out
+Apr 25, 2020 6:33:15 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 30000 ms before timing out
+Apr 25, 2020 6:33:15 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 30000 ms before timing out
+Apr 25, 2020 6:33:15 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 30000 ms before timing out
+Apr 25, 2020 6:33:15 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 30000 ms before timing out
+Apr 25, 2020 6:33:15 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 30000 ms before timing out
+Apr 25, 2020 6:33:15 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 30000 ms before timing out
+Apr 25, 2020 6:33:16 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:1, serverValue:72}] to localhost:27017
+Apr 25, 2020 6:33:16 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 6]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=6691903}
+Apr 25, 2020 6:33:16 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:16, serverValue:85}] to localhost:27017
+Apr 25, 2020 6:33:16 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:8, serverValue:87}] to localhost:27017
+Apr 25, 2020 6:33:16 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:7, serverValue:77}] to localhost:27017
+Apr 25, 2020 6:33:16 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:9, serverValue:76}] to localhost:27017
+Apr 25, 2020 6:33:16 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:13, serverValue:82}] to localhost:27017
+Apr 25, 2020 6:33:16 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:3, serverValue:73}] to localhost:27017
+Apr 25, 2020 6:33:16 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:11, serverValue:79}] to localhost:27017
+Apr 25, 2020 6:33:16 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:15, serverValue:83}] to localhost:27017
+Apr 25, 2020 6:33:16 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:12, serverValue:81}] to localhost:27017
+Apr 25, 2020 6:33:16 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:5, serverValue:75}] to localhost:27017
+Apr 25, 2020 6:33:16 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:2, serverValue:74}] to localhost:27017
+Apr 25, 2020 6:33:16 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:10, serverValue:78}] to localhost:27017
+Apr 25, 2020 6:33:16 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:6, serverValue:80}] to localhost:27017
+Apr 25, 2020 6:33:16 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:14, serverValue:84}] to localhost:27017
+Apr 25, 2020 6:33:16 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:4, serverValue:86}] to localhost:27017
+Apr 25, 2020 6:33:16 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:17, serverValue:88}] to localhost:27017
+2020-04-25 06:33:24:646 10 sec: 75320 operations; 7530.49 current ops/sec; est completion in 30 seconds [INSERT: Count=75611, Max=1220607, Min=121, Avg=1979.72, 90=2621, 99=10783, 99.9=48447, 99.99=1203199] 
+2020-04-25 06:33:34:644 20 sec: 167430 operations; 9212.84 current ops/sec; est completion in 16 seconds [INSERT: Count=91824, Max=1167359, Min=120, Avg=1621.35, 90=1845, 99=13551, 99.9=99263, 99.99=750079] 
+2020-04-25 06:33:44:644 30 sec: 199993 operations; 3256.3 current ops/sec; est completion in 16 seconds [INSERT: Count=32558, Max=1112063, Min=112, Avg=2084.86, 90=1629, 99=17199, 99.9=304383, 99.99=915967] 
+2020-04-25 06:33:54:651 40 sec: 298885 operations; 9882.28 current ops/sec; est completion in 1 second [CLEANUP: Count=15, Max=12, Min=1, Avg=2.47, 90=7, 99=12, 99.9=12, 99.99=12] [INSERT: Count=98892, Max=9789439, Min=107, Avg=2288.85, 90=1389, 99=8035, 99.9=69439, 99.99=5005311] 
+Apr 25, 2020 6:33:58 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:13, serverValue:82}] to localhost:27017 because the pool has been closed.
+Apr 25, 2020 6:33:58 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:17, serverValue:88}] to localhost:27017 because the pool has been closed.
+Apr 25, 2020 6:33:58 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:10, serverValue:78}] to localhost:27017 because the pool has been closed.
+Apr 25, 2020 6:33:58 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:2, serverValue:74}] to localhost:27017 because the pool has been closed.
+Apr 25, 2020 6:33:58 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:16, serverValue:85}] to localhost:27017 because the pool has been closed.
+Apr 25, 2020 6:33:58 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:15, serverValue:83}] to localhost:27017 because the pool has been closed.
+Apr 25, 2020 6:33:58 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:9, serverValue:76}] to localhost:27017 because the pool has been closed.
+Apr 25, 2020 6:33:58 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:5, serverValue:75}] to localhost:27017 because the pool has been closed.
+Apr 25, 2020 6:33:58 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:14, serverValue:84}] to localhost:27017 because the pool has been closed.
+Apr 25, 2020 6:33:58 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:8, serverValue:87}] to localhost:27017 because the pool has been closed.
+Apr 25, 2020 6:33:58 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:12, serverValue:81}] to localhost:27017 because the pool has been closed.
+Apr 25, 2020 6:33:58 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:4, serverValue:86}] to localhost:27017 because the pool has been closed.
+Apr 25, 2020 6:33:58 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:6, serverValue:80}] to localhost:27017 because the pool has been closed.
+Apr 25, 2020 6:33:58 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:11, serverValue:79}] to localhost:27017 because the pool has been closed.
+Apr 25, 2020 6:33:58 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:3, serverValue:73}] to localhost:27017 because the pool has been closed.
+Apr 25, 2020 6:33:58 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:7, serverValue:77}] to localhost:27017 because the pool has been closed.
+2020-04-25 06:33:58:515 43 sec: 300000 operations; 288.71 current ops/sec; [CLEANUP: Count=1, Max=2641919, Min=2639872, Avg=2640896, 90=2641919, 99=2641919, 99.9=2641919, 99.99=2641919] [INSERT: Count=1115, Max=1517567, Min=168, Avg=1651.49, 90=377, 99=998, 99.9=9847, 99.99=1517567] 
+[OVERALL], RunTime(ms), 43884
+[OVERALL], Throughput(ops/sec), 6836.204539239814
+[TOTAL_GCS_G1_Young_Generation], Count, 172
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 366
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.8340169537872573
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 172
+[TOTAL_GC_TIME], Time(ms), 366
+[TOTAL_GC_TIME_%], Time(%), 0.8340169537872573
+[CLEANUP], Operations, 16
+[CLEANUP], AverageLatency(us), 165058.3125
+[CLEANUP], MinLatency(us), 1
+[CLEANUP], MaxLatency(us), 2641919
+[CLEANUP], 95thPercentileLatency(us), 12
+[CLEANUP], 99thPercentileLatency(us), 2641919
+[INSERT], Operations, 300000
+[INSERT], AverageLatency(us), 1982.12532
+[INSERT], MinLatency(us), 107
+[INSERT], MaxLatency(us), 9789439
+[INSERT], 95thPercentileLatency(us), 2981
+[INSERT], 99thPercentileLatency(us), 11055
+[INSERT], Return=OK, 300000
